@@ -28,6 +28,6 @@ int stopValue = 7;
 
 double result = dataService.GetMultiplySeries(x, startValue, stopValue);
 
-Console.WriteLine($"Произведение ряда для X={x}, от {startValue} до {stopValue} равно: {Math.Round(result,3)}");
+Console.WriteLine($"Произведение ряда для X={x}, от {startValue} до {stopValue} равно: {result}");
 Console.WriteLine("************************************************************************");
 Console.ReadLine();

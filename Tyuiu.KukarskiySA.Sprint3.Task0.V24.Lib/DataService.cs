@@ -15,7 +15,7 @@ namespace Tyuiu.KukarskiySA.Sprint3.Task0.V24.Lib
                 product *= term;
             }
 
-            return product;
+            return Math.Round(product,3);
         }
     }
 }
