@@ -18,7 +18,7 @@ namespace Tyuiu.KukarskiySA.Sprint3.Task1.V24.Test
             double result = dataService.GetSumSeries(x, startValue, stopValue);
 
             // Assert
-            double expected = 0.222; // Обновленное ожидаемое значение с точностью до 3-х знаков после запятой
+            double expected = 0.186; // Ожидаемое значение
             Assert.AreEqual(expected, result, 0.0001, "Значение не соответствует ожидаемому.");
         }
     }

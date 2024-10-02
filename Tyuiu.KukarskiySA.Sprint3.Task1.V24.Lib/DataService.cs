@@ -12,8 +12,8 @@ namespace Tyuiu.KukarskiySA.Sprint3.Task1.V24.Lib
             // Цикл while для вычисления суммы
             while (i <= stopValue)
             {
-                // Член ряда: (2 / (6 + x))^i
-                double term = Math.Pow((2.0 / (6 + value)), i);
+                // Вычисляем выражение: (2 / (6 + x^i))^i
+                double term = Math.Pow(2.0 / (6 + Math.Pow(value, i)), i);
                 sum += term;
                 i++;
             }
